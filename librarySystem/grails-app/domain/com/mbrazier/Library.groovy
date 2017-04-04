@@ -1,10 +1,7 @@
 package com.mbrazier
 
 class Library {
-<<<<<<< HEAD
 
-    static constraints = {
-=======
 	String name
 	String address
 	String openingHours
@@ -18,6 +15,5 @@ class Library {
 	openingHours blank:false, nullable:false
 	location blank:false, nullable:false
 	studySpaces nullable:false
->>>>>>> develop
     }
 }

@@ -1,10 +1,7 @@
 package com.mbrazier
 
 class Course {
-<<<<<<< HEAD
 
-    static constraints = {
-=======
 	String title
 	int code
 	String leader
@@ -20,6 +17,5 @@ class Course {
 	department blank:false, nullable:false
 	description blank:false, nullable:false
 	studyModule blank:false, nullable:false
->>>>>>> develop
     }
 }

@@ -1,10 +1,7 @@
 package com.mbrazier
 
 class Book {
-<<<<<<< HEAD
 
-    static constraints = {
-=======
 	String title
 	String subject
 	String author
@@ -23,6 +20,5 @@ class Book {
 	returnDate blank:false, nullable:false
 	student blank:false, nullable:false
 	overdue blank:false, nullable:false
->>>>>>> develop
     }
 }

@@ -1,11 +1,7 @@
 package com.mbrazier
 
 class Librarian {
-<<<<<<< HEAD
 
-    static constraints = {
-    }
-=======
 	String name
 	String email
 	String office
@@ -13,7 +9,6 @@ class Librarian {
 	String password
 	String telephone
 	String library
-
 
     static constraints = {
 	name blank:false, nullable:false
@@ -25,5 +20,4 @@ class Librarian {
 	library blank:false, nullable:false
     }
 
->>>>>>> develop
 }
