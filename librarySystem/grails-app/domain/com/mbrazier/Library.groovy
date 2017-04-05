@@ -10,7 +10,7 @@ class Library {
 
 
     static constraints = {
-	name blank:false, nullable:false
+	name blank:false, nullable:false, unique:true
 	address blank:false, nullable:false
 	openingHours blank:false, nullable:false
 	location blank:false, nullable:false
